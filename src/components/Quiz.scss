@@ -1,0 +1,41 @@
+.quiz {
+	border: 2px solid black;
+	width: 50rem;
+	height: 30rem;
+	margin: 5rem auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 2rem;
+	h1 {
+		margin-top: 1rem;
+	}
+	.question {
+		font-size: 2rem;
+		font-style: italic;
+		font-weight: bold;
+		cursor: pointer;
+		transition: all ease-in 0.3s;
+		input {
+			display: none;
+		}
+		label {
+			padding: 0.5rem 3rem;
+			border-radius: 0.5rem;
+		}
+		&:hover > label {
+			color: grey;
+			background-color: orange;
+		}
+		& input:checked ~ label {
+			background-color: rgb(188, 241, 188);
+		}
+	}
+	.next {
+		width: 8rem;
+		padding: 0.2rem;
+		font-size: 2rem;
+		font-weight: bold;
+	}
+}

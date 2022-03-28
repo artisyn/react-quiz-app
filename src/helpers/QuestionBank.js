@@ -1,0 +1,42 @@
+export const Questions = [
+	{
+		prompt: 'What is edible?',
+		optionA: 'glass',
+		optionB: 'fruit',
+		optionC: 'stone',
+		optionD: 'ceramic block',
+		answer: 'optionB',
+	},
+	{
+		prompt: 'What is edible?',
+		optionA: 'apple',
+		optionB: 'rock',
+		optionC: 'soap',
+		optionD: 'brick',
+		answer: 'optionA',
+	},
+	{
+		prompt: 'What is edible?',
+		optionA: 'glass',
+		optionB: 'metal',
+		optionC: 'banana',
+		optionD: 'paper',
+		answer: 'optionC',
+	},
+	{
+		prompt: 'What is edible?',
+		optionA: 'milk',
+		optionB: 'ship',
+		optionC: 'cloud',
+		optionD: 'human',
+		answer: 'optionA',
+	},
+	{
+		prompt: 'What is edible?',
+		optionA: 'plane',
+		optionB: 'house',
+		optionC: 'stone',
+		optionD: 'bread',
+		answer: 'optionD',
+	},
+];

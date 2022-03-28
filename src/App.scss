@@ -1,4 +1,10 @@
 @import './components/styleRenew.scss';
 
 .App {
+	margin-top: 1rem;
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+		font-weight: bold;
+	}
 }

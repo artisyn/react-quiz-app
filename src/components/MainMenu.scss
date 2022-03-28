@@ -1,0 +1,16 @@
+.menu {
+	margin: 0 auto;
+	border: 2px solid orangered;
+	width: 20rem;
+	height: 20rem;
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	button {
+		width: 8rem;
+		height: 2rem;
+		font-weight: bold;
+		border-radius: 1rem;
+	}
+}

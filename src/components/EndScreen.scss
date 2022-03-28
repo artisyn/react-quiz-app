@@ -1,0 +1,21 @@
+.endscreen {
+	width: 30rem;
+	height: 20rem;
+	border: 2px solid orange;
+	margin: 5rem auto 0 auto;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	button {
+		width: 10rem;
+		padding: 0.5rem;
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin-top: 6rem;
+		&:hover {
+			background-color: orange;
+		}
+	}
+}
